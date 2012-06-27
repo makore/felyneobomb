@@ -1,5 +1,6 @@
 *.class
-
+.metadata
+*/gwt-unitCache/*
 # Package Files #
 *.jar
 *.war
