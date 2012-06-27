@@ -1,5 +1,10 @@
 *.class
 .metadata
+.gwt
+war/WEB-INF/classes/*
+war/WEB-INF/deploy/*
+war/felyneobomb/*
+war/sprites/ori
 */gwt-unitCache/*
 # Package Files #
 *.jar
