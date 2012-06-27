@@ -1,0 +1,116 @@
+Signature-Version: 1.0
+SHA1-Digest-Manifest-Main-Attributes: AAWQeySKCMHmdLX0F57eI9GGsj4=
+Created-By: 1.6.0_19 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest: CGFRry9vJAVsPchMpKZIek+ZrXQ=
+
+Name: native/windows/jinput-raw_64.dll
+SHA1-Digest: IGTK+ck67GPowL1TwqUxDJpR54I=
+
+Name: native/solaris/liblwjgl64.so
+SHA1-Digest: LCJcVM89sdf6e3CD+udn1AvTZhY=
+
+Name: native/windows/jinput-dx8.dll
+SHA1-Digest: /AG2itjFfEcPnx9AtsI+LvCpugQ=
+
+Name: lwjgl_util.jar
+SHA1-Digest: RJ/coyLOBRdwd2c7pgD+aZX3Sck=
+
+Name: native/windows/OpenAL64.dll
+SHA1-Digest: Wy2EtDpuB0RlR2gsZwTkrm/g408=
+
+Name: native/windows/jinput-dx8_64.dll
+SHA1-Digest: 0yx4uKRFN1Npu5WbbFElIx2geo8=
+
+Name: lwjgl_util_applet.jar
+SHA1-Digest: LzSfhahFnp6UzTFCb/7268zDMRA=
+
+Name: lzma.jar
+SHA1-Digest: DCwGjah/FWYiDXi+mZ/bTFQ3x1s=
+
+Name: native/linux/libopenal64.so
+SHA1-Digest: G8HsE3iXkXghwhz/3Kq3vajpiDY=
+
+Name: native/linux/libopenal.so
+SHA1-Digest: 44lfOjitSrq1Nym1y/sQc3yEtiY=
+
+Name: lwjgl.jar
+SHA1-Digest: id3GoYtGZxeqJ4SRvzAU/kJLckg=
+
+Name: org/lwjgl/eclipse/Activator.class
+SHA1-Digest: GBeR/X5HKMw9BCJyTQiBLC1hK6w=
+
+Name: doc/README
+SHA1-Digest: CGZBZ8P3XglSO7CHeSjaKbj40O0=
+
+Name: native/linux/libjinput-linux.so
+SHA1-Digest: 0AGTQgTqTeiIWDcJuFjuRnh0fvE=
+
+Name: native/macosx/openal.dylib
+SHA1-Digest: 5FTUBUf+Db2BH93H5vfxUirMUTI=
+
+Name: AppleJavaExtensions.jar
+SHA1-Digest: E4nwG35I7OJbHvQuvAcgLb95BWc=
+
+Name: native/linux/liblwjgl.so
+SHA1-Digest: tHeKeQmKUOfH34zITcX9nktWtfs=
+
+Name: native/solaris/libopenal64.so
+SHA1-Digest: z1j63PJ9xW7McV2GOI7uecSHR40=
+
+Name: doc/3rdparty/openal_license.txt
+SHA1-Digest: fHyY1K2+PW7EBYuFOURrQys37P4=
+
+Name: native/macosx/liblwjgl.jnilib
+SHA1-Digest: EQmaQANq/UahvvMIAf0CaBwLwO8=
+
+Name: doc/3rdparty/jinput_license.txt
+SHA1-Digest: z70SDNZkGtoK4HQZDPlRrRSmDe8=
+
+Name: native/solaris/libopenal.so
+SHA1-Digest: d9vB2Doqy6iVGBBVqcpTrSMexEA=
+
+Name: native/macosx/libjinput-osx.jnilib
+SHA1-Digest: YY4q5Iih99f8v1qKxN66oQWFgTM=
+
+Name: doc/lwjgl_hidden_switches.text
+SHA1-Digest: po0MXE4ER2nJqNwIFMAvjJkE6vw=
+
+Name: doc/CREDITS
+SHA1-Digest: OdyGp5oeMn2MHvm/ZISMQTWtz3A=
+
+Name: native/solaris/liblwjgl.so
+SHA1-Digest: 1DEkfWtSAuehm19BAq/OKUwGCcY=
+
+Name: jinput.jar
+SHA1-Digest: NS21QtFS3zzoYgbrDr3IR8hv4pY=
+
+Name: native/windows/OpenAL32.dll
+SHA1-Digest: HNMTXglz52/G+vi59kb6uWLxBKk=
+
+Name: native/windows/jinput-raw.dll
+SHA1-Digest: C6tVM75KQXVF39U6IJHT9qS/5gA=
+
+Name: doc/3rdparty/lzma_license.txt
+SHA1-Digest: m2SN/ns3gCDAvCXcogF3UEXVvN8=
+
+Name: doc/3rdparty/jogl_license.txt
+SHA1-Digest: JklpcFvEk+dVfMQol9zY7MkWExY=
+
+Name: native/linux/libjinput-linux64.so
+SHA1-Digest: sWNG3E1065w2X+OMPs2bjlOpWgo=
+
+Name: lwjgl_test.jar
+SHA1-Digest: eLV0lAgYKbZAhaCLbT/4S+bmMAk=
+
+Name: native/linux/liblwjgl64.so
+SHA1-Digest: NRTkuuWCMhGlScBiDek8yHDJIBs=
+
+Name: doc/LICENSE
+SHA1-Digest: AOcZ7HdwEb4CZ3Zlt4YsjIzZERA=
+
+Name: native/windows/lwjgl64.dll
+SHA1-Digest: TqOkWS7AIK8VBnYs9zEx0t1fjPw=
+
+Name: native/windows/lwjgl.dll
+SHA1-Digest: 1CufnPZJ+hdy3437t5x88vah6vc=
+

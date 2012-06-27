@@ -1,0 +1,11 @@
+Descomprimes donde quieras.
+
+Cuando quieras ejecutar en Java tener en cuenta que el Run Configuration tiene que referenciar a las nativas de LWJGL para ello añades como parámetro en VM el siguiente:
+
+-Djava.library.path=<ruta de las nativas>
+
+Por ejemplo sería así:
+
+-Djava.library.path=/home/victor/workspace/FelyneOBomb/src/ua/felyne/game/shared/agwtapi/org.lwjgl_2.7.1/native/linux
+
+He dejado las nativas en la ruta que ves.

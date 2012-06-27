@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='felyneobomb'>
+  <!-- Inherit the core Web Toolkit stuff.                        -->
+  <inherits name='com.google.gwt.user.User'/>
+ 
+  <!-- Inherit the default GWT style sheet.  You can change       -->
+  <!-- the theme of your GWT application by uncommenting          -->
+  <!-- any one of the following lines.                            -->
+  <inherits name='com.google.gwt.user.theme.clean.Clean'/>
+  <!-- <inherits name='com.google.gwt.user.theme.standard.Standard'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+  <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+
+  <!-- Other module inherits                                      -->
+
+  <!-- Logs -->
+  <set-property name="gwt.logging.enabled" value="TRUE" />
+
+  <!-- Specify the app entry point class.                         -->
+  <entry-point class='ua.felyne.game.client.FelyneOBomb'/>
+
+  <!-- Specify the paths for translatable code                    -->
+  <source path='client'>
+    <exclude name="**/MenuJava.java"/>
+    <exclude name="**/GameJava.java"/>
+  </source>
+  <source path='shared'>  
+  
+    <exclude name="**/agwtapi/LWJController.java"/>
+    <exclude name="**/agwtapi/graphics/LWJGL/**"/>
+    <exclude name="**/agwtapi/communication/JavaWS/**"/>
+    <exclude name="**/agwtapi/audio/LWJGL/**"/>
+    <exclude name="**/agwtapi/event/LWJ/**"/>
+    
+  </source>
+  
+
+</module>

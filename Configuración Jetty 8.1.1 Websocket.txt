@@ -1,0 +1,13 @@
+
+(La ruta creo que es esta)
+./workspace/.metadata/.plugins/jetty-util-server-core/contexts
+
+
+Añadir esta línea al *.xml generado justo debajo de la etiqueta de configuración.
+
+<Set name="extraClasspath">/home/victor/jetty/lib/jetty-websocket-8.1.1.v20120215.jar;/home/victor/jetty/lib/jetty-util-8.1.1.v20120215.jar</Set>
+
+La ruta esta hardcodeada porque el PropertyDefault (o como se diga) solo comienza a recorrer desde .metada.
+
+
+No se si estará bien en todos los casos, no he encontrado documentación, lo he hecho a ojo.

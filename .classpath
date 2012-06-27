@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="lib/Java-jogg.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/Java-websocket.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/lwjgl_util.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/jinput.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/lwjgl.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/lwjgl_util_applet.jar"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>

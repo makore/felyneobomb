@@ -1,0 +1,195 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the     -->
+<!-- browser's rendering engine into                -->
+<!-- "Standards Mode". Replacing this declaration   -->
+<!-- with a "Quirks Mode" doctype is not supported. -->
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<!--                                                               -->
+<!-- Consider inlining CSS to reduce the number of requested files -->
+<!--                                                               -->
+<link type="text/css" rel="stylesheet" href="felyneobomb.css">
+
+<!--                                           -->
+<!-- Any title is fine                         -->
+<!--                                           -->
+<title>Web Application Starter Project</title>
+
+<link rel="shortcut icon" href="favicon.ico" />
+
+<!--                                           -->
+<!-- This script loads your compiled module.   -->
+<!-- If you add any GWT meta tags, they must   -->
+<!-- be added before this line.                -->
+<!--                                           -->
+<script type="text/javascript" language="javascript"
+  src="felyneobomb/felyneobomb.nocache.js"></script>
+</head>
+
+<!--                                           -->
+<!-- The body can have arbitrary html, or      -->
+<!-- you can leave the body empty if you want  -->
+<!-- to create a completely dynamic UI.        -->
+<!--                                           -->
+<body>
+
+  <!-- OPTIONAL: include this if you want history support -->
+  <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1'
+    style="position: absolute; width: 0; height: 0; border: 0"></iframe>
+
+
+  <div id="content">
+    <div>
+      <div class="page">
+        
+            <header>
+                <hgroup>  
+            <h1>FELYNE-O-BOMB</h1>
+            <p class="desc">Aqui una breve descripcion.</p>
+                </hgroup>
+            </header>
+        <div class="wrapper">
+          <div class="nav" id="menu">
+            <ul class="f11">
+              <li><a id="show" rel="ConcentLink" class="contentLink0" href="#content1" type="scrollover" target="_blank"></a></li>
+              <li id="enlace1"></li>
+              <li id="enlace2"></li>
+            </ul>
+          </div>
+        </div>        
+            <footer>
+            </footer>
+
+      </div>
+    </div>
+    
+    <div>
+      <div class="page">
+        <div id="game">
+        </div>
+      </div>    
+    </div>
+  </div>
+  
+<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+<script src="js/jquery.scrollTo.min.js" type="text/javascript"></script> 
+<script src="js/jquery.ascensor.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+var j = jQuery.noConflict();
+
+j(document).ready(function() {
+  var pos = (j(document.body).width() / 2) - (720 / 2);
+  j("#game").css({
+    position: "absolute", top: 40, left: pos    
+  })
+  
+  j('#content').ascensor({
+    AscensorName:'content',
+    WindowsFocus:true,
+    WindowsOn:0,
+    
+    NavigationDirection:'xy',
+    Direction: 'y',
+    Navig:false,
+    Link:false,
+    ReturnURL:false,
+    PrevNext:false,
+    CSSstyles:false,
+    
+    KeyArrow:false,
+    keySwitch:false,
+    ReturnCode:false,
+    
+    ChocolateAscensor:true,
+    AscensorMap: '1|2',
+    ContentCoord: '1|1 & 1|2'
+  });
+});
+
+</script>
+  
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/mootools/1.3.0/mootools-yui-compressed.js"></script>
+<script>
+var Scrollmenu = new Class({
+  initialize: function(linkContainer) {
+    this.linkContainer = $(linkContainer);
+  
+    if ($defined(this.linkContainer)) {
+      this.initLinks();
+      this.initEvents();
+    }
+  },
+      
+  initLinks: function() {
+    this.linkContainer.getElements('a').each(function(i) {
+      var text = i.get('text'), 
+        height = i.getSize().y,
+        title = $pick(i.get('title'), i.get('rel'), i.get('href'));
+      
+      i.empty();
+    
+      this.linksp = new Element('span', {
+        'styles':{
+          'display':'block',
+          'position':'relative',
+          'height': height,
+          'width':'100%',
+          'overflow':'hidden'
+        }
+      }).inject(i, 'top');
+      
+      this.linkem = new Element('em', {
+        'class':'ems',
+        'styles':{
+          'display':'block',
+          'position':'absolute',
+          'left':0,
+          'top':-height,
+          'width':'100%',
+          'line-height':height,
+          'font-style':'normal'
+        }
+      }).set('html',title+'<br/>'+text)
+        .store('text',text)
+        .store('height',height)
+        .store('title',title)
+        .inject(this.linksp);
+    }, this);
+  },
+      
+  initEvents: function() {
+    this.linkContainer.getElements('em.ems').set('tween', { duration: 400, transition:'back:out', link: 'cancel' }).addEvents({
+      'mouseenter': function(e) {
+        this.tween('top', 0);
+      },
+    
+      'mouseleave': function(e) {
+        this.tween('top', -this.retrieve('height'));
+      }
+    });
+  }
+});
+
+window.addEvent('domready',function(){
+  //new Scrollmenu('menu'); 
+});
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
