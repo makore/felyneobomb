@@ -1,7 +1,7 @@
 *.class
 .metadata
-.settings
-.gwt
+.settings/
+.gwt/
 war/WEB-INF/classes/*
 war/WEB-INF/deploy/*
 war/felyneobomb/*
